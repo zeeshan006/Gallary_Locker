@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gallery_locker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:22:5-77
+11-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:22:22-75
+12    <!--
+13<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+14<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+15  <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:8:4-66
+17-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:8:21-63
+18
+19    <uses-feature
+19-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:9:5-89
+20        android:name="android.hardware.fingerprint"
+20-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:9:19-62
+21        android:required="true" />
+21-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:9:63-86
+22
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+23-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:10:5-72
+23-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:10:22-69
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:12:4-73
+24-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:12:21-70
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:13:5-79
+25-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:13:22-76
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:14:5-80
+26-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:14:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:15:5-80
+27-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:15:22-78
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:16:5-81
+28-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:16:22-78
+29    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+29-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:17:5-82
+29-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:17:22-79
+30    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+30-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:18:5-88
+30-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:18:22-85
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:19:5-66
+31-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:19:22-63
+32    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+32-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:20:5-80
+32-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:20:22-78
+33    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+33-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:21:5-85
+33-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:21:22-82
+34    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+34-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:23:5-73
+34-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:23:22-70
+35    <uses-permission android:name="android.permission.READ_PROFILE" />
+35-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:24:5-71
+35-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:24:22-68
+36    <uses-permission android:name="android.permission.READ_CONTACTS" />
+36-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:25:5-72
+36-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:25:22-69
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+37-->[com.facebook.flipper:flipper:0.125.0] C:\Users\ameer\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+37-->[com.facebook.flipper:flipper:0.125.0] C:\Users\ameer\.gradle\caches\transforms-3\85fdd9af1f70f27ec9080a3596d5a5c1\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+38
+39    <application
+39-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:29:5-50:19
+40        android:name="com.gallery_locker.MainApplication"
+40-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:30:7-38
+41        android:allowBackup="false"
+41-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:34:7-34
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.7.0] C:\Users\ameer\.gradle\caches\transforms-3\14c3ad8a8a3a7a5735d7c970729050fd\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:32:7-41
+45        android:label="@string/app_name"
+45-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:31:7-39
+46        android:requestLegacyExternalStorage="true"
+46-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:35:7-50
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:33:7-52
+48        android:supportsRtl="true"
+48-->[com.burhanrashid52:photoeditor:1.5.0] C:\Users\ameer\.gradle\caches\transforms-3\a424ad2ed7d6b9ad89686075fa24a06b\transformed\jetified-photoeditor-1.5.0\AndroidManifest.xml:12:9-35
+49        android:theme="@style/AppTheme"
+49-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:36:7-38
+50        android:usesCleartextTraffic="true" >
+50-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\debug\AndroidManifest.xml:8:9-44
+51        <activity
+51-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\debug\AndroidManifest.xml:11:9-111
+52            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+52-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\debug\AndroidManifest.xml:11:19-83
+53            android:exported="false" />
+53-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\debug\AndroidManifest.xml:11:84-108
+54        <activity
+54-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:37:7-49:18
+55            android:name="com.gallery_locker.MainActivity"
+55-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:38:9-37
+56            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+56-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:40:9-118
+57            android:exported="true"
+57-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:44:9-32
+58            android:label="@string/app_name"
+58-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:39:9-41
+59            android:launchMode="singleTask"
+59-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:41:9-40
+60            android:requestLegacyExternalStorage="true"
+60-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:42:9-52
+61            android:windowSoftInputMode="adjustResize" >
+61-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:43:11-53
+62            <intent-filter>
+62-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:45:9-48:25
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:46:13-65
+63-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:46:21-62
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:47:13-73
+65-->C:\Users\ameer\Desktop\Project\gallery_locker\android\app\src\main\AndroidManifest.xml:47:23-70
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[:baronha_react-native-photo-editor] C:\Users\ameer\Desktop\Project\gallery_locker\node_modules\@baronha\react-native-photo-editor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:77
+69            android:name="com.reactnativephotoeditor.activity.PhotoEditorActivity"
+69-->[:baronha_react-native-photo-editor] C:\Users\ameer\Desktop\Project\gallery_locker\node_modules\@baronha\react-native-photo-editor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-83
+70            android:configChanges="orientation|keyboardHidden|screenSize" />
+70-->[:baronha_react-native-photo-editor] C:\Users\ameer\Desktop\Project\gallery_locker\node_modules\@baronha\react-native-photo-editor\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-74
+71
+72        <meta-data
+72-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ameer\.gradle\caches\transforms-3\2fd2a2e0e4eda520372f054a8bc705ad\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+73            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+73-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ameer\.gradle\caches\transforms-3\2fd2a2e0e4eda520372f054a8bc705ad\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+74            android:value="GlideModule" />
+74-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\ameer\.gradle\caches\transforms-3\2fd2a2e0e4eda520372f054a8bc705ad\transformed\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+75    </application>
+76
+77</manifest>
