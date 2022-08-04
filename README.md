@@ -1,1 +1,1 @@
-# Gallary_Locker
+# gallery_locker
